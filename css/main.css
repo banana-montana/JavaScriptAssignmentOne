@@ -1,0 +1,77 @@
+body {
+  background-color: #581845;
+  font-family: 'Quicksand', helvetica, arial, sans-serif;
+  background: -webkit-linear-gradient(to bottom right, #581845, #900C3F); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(to bottom right, #581845, #900C3F); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(to bottom right, #581845, #900C3F); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #581845, #900C3F);
+  background-repeat: none;
+  width: 100%;
+  background-attachment: fixed;
+}
+
+#container {
+  width: 80%;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-weight: 700;
+  color: #FFC300;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40pt;
+}
+
+h2 {
+  font-weight: 400;
+  color: #FFC300;
+  text-align: center;
+  font-size: 23pt;
+  padding-bottom: 20px;
+}
+
+.onepress {
+  display: block;
+  text-align: center;
+}
+
+button {
+  padding: 10px;
+  background-color: #C70039;
+  color: #FFC300;
+  font-size: 11pt;
+  text-transform: uppercase;
+  border-radius: 16px;
+  text-decoration: none;
+  border: 0.5pt solid #581845;
+  text-align: center;
+  transition: 0.2s ease-in;
+  margin: 0 auto;
+  text-align: center;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #B10033;
+  transition: 0.5s ease-out;
+}
+
+.onepress button:disabled, button[disabled] {
+   background-color: #a8a8a8;
+   color: white;
+   transition: 0.2s ease;
+}
+
+#fortune {
+  border-radius: 10px;
+  font-size: 16pt;
+  background-color: #FF5733;
+  padding: 20px;
+  color: white;
+  width: 800px;
+  height: 150px;
+  margin: 0 auto;
+}
+
