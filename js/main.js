@@ -17,7 +17,7 @@ function readFortune() {
 }
 
 // chooses a fortune at random to be displayed //
-function cheese () {
+function cheese() {
 	var randomNumber = Math.floor(Math.random() * fortunes.length);
 	console.log("random number" + randomNumber);
 	return fortunes[randomNumber];
